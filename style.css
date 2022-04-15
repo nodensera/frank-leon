@@ -120,7 +120,7 @@ ul {
   display: flex;
   top: 60%;
   right: 0;
-  border-radius: 9px;
+  border-radius: 9px 0 0 9px;
   transform: translateY(-50%);
   background: #e2c833;
   padding: 30px 180px 30px 30px;
@@ -204,7 +204,7 @@ ul {
   width: 93%;
   height: 93%;
   border-width: 10px;
-  border-color: #e2c833 transparent;
+  border-color: #f1d221 transparent;
   transform: rotate(-45deg);
   top: 12px;
   left: 12px;
