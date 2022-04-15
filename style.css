@@ -194,7 +194,7 @@ ul {
   width: 93%;
   height: 93%;
   border-width: 10px;
-  border-color: #fff;
+  border-color: rgba(255, 255, 255, 0.11);
   transform: rotate(-45deg);
   top: 12px;
   left: 12px;
