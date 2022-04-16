@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'Akira Expanded';
+  src: url('./AkiraExpanded.otf'); /* IE9 Compat Modes */
+  src: url('./AkiraExpanded.otf') format('embedded-opentype'), /* IE6-IE8 */
+       url('./AkiraExpanded.otf') format('woff'), /* Modern Browsers */
+       url('./AkiraExpanded.otf')  format('truetype'), /* Safari, Android, iOS */
+       url('./AkiraExpanded.otf') format('svg'); /* Legacy iOS */
+}
+
 * {
   margin: 0;
   padding: 0
@@ -12,9 +21,9 @@ body {
 }
 
 .wrapper {
-  background: url('./frank-main.png') no-repeat;
+  background: url('./umb-4.png') no-repeat;
   background-position: center;
-  background-size: 23%;
+  background-size: 100%;
   z-index: -1;
 }
 
@@ -105,14 +114,20 @@ ul {
 .text {
   position: absolute;
   top: 25%;
-  right: 180px;
+  right: 30px;
   transform: translateY(-50%);
   text-align: right;
   color: #fff;
 }
 
 .text .title {
-  font-size: 150px;
+  font-size: 6rem;
+  font-family: 'Akira Expanded';
+}
+
+.text .title img {
+  width: 54%;
+  /*filter: drop-shadow(0 0 0.75rem rgba(15, 9, 13, 0.479));*/
 }
 
 .watchnow {
